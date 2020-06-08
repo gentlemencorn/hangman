@@ -2,7 +2,7 @@ from random import choice
 from termcolor import colored
 import json
 
-with open('/Users/andrewshiah/PycharmProjects/First_Games/randword.json') as f:
+with open('/randword.json') as f:
     import_json = json.loads(f.read())
 words = import_json['data']
 
